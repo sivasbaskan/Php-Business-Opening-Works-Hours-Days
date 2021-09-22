@@ -18,17 +18,17 @@ function HoursWork($datetime){
 
         if( $opennow[0] > WorksHours(date('H:i')) ){
 
-            echo '<span class="badge badge-danger">K</span>';
+            echo '<span class="badge badge-danger">Kapalı</span>';
         }
 
         elseif( $opennow[1] < WorksHours(date('H:i')) ){
 
-            echo '<span class="badge badge-danger">K</span>';
+            echo '<span class="badge badge-danger">Kapalı</span>';
         }
 
         else{
 
-            echo '<span class="badge badge-info">A</span>';
+            echo '<span class="badge badge-info">Açık</span>';
         }
 
     Endif;
