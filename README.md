@@ -1,2 +1,12 @@
-# php-dev
-Php Develop
+# Php Dev Şirket Açılış Saatleri
+
+Ne İşe Yarar?
+
+Şirket, Dükkan, Ofis yada herhangi bir işlevin mysql veri tabanından gelen açılış saati verisinin otomatik açılış kapanış saatlerine göre durum gösterir.
+
+Mysql Verileri;
+
+Tablo = isyeribilgileri.
+Sütun = calismasaatleri.
+
+calismasaatler "08:00,19:00";
