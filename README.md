@@ -18,4 +18,4 @@ calismagunleri "1,2,3,4,5,6,7";
 
 Not: Php'nin her türlü versiyonu ve Codeigniter, Laravel ilede çalışır..
 
-// İletişim Numaram Bana Ulaşabilirsiniz 0533 195 69 10 / 0545 690 20 87 //
+// İletişim Numaralarım Bana Ulaşabilirsiniz +90 533 195 69 10 / +90 545 690 20 87 //
