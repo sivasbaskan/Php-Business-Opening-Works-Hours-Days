@@ -1,4 +1,4 @@
-# Php Dev Şirket Açılış Saatleri
+# Şirket Açılış Saatleri ve Çalışma Günleri Fonksiyonları!
 
 Ne İşe Yarar?
 
