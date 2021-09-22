@@ -2,7 +2,7 @@
 
 // İmport Et //
 
-/*$reuire_ar = array( 
+/*$require_ar = array( 
   'opening_hours' => 'auto_opening.php',
   'opening_days'  => 'opening_day.php'
 );*/
