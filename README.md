@@ -26,7 +26,8 @@ HoursWork('08:00,21:00');
 
 // Çalışma Günleri //
 
-DayWork( Mysql'den Gelen Veri $veri->calismagunleri yada $veri['calismagunleri'], ' html kodunu boşluk yada başka bir şey için kullanın ' );
+DayWork( Mysql'den Gelen Veri $veri->calismagunleri yada $veri['calismagunleri'], 
+' html kodunu boşluk yada başka bir şey için kullanın ' );
 
 DayWork('1,2,3,4,5,6,7','<br>');
 
