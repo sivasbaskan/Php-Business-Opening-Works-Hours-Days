@@ -1,7 +1,14 @@
 <?php 
 
 // İmport Et //
-require_once ("auot_opening.php");
+
+/*$reuire_ar = array( 
+  'opening_hours' => 'auto_opening.php',
+  'opening_days'  => 'opening_day.php'
+);*/
+
+require_once ("auto_opening.php");
+require_once ("opening_day.php");
 
 // Açılış ve Kapanış Saatleri //
 // Çalışacak Fonksiyonun HoursWork( Mysql'den Gelen Veri $veri->acilissaatleri yada $veri['acilissaatleri'] );
