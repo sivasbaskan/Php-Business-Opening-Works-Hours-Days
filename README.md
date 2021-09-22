@@ -10,3 +10,5 @@ Tablo = isyeribilgileri.
 Sütun = calismasaatleri.
 
 calismasaatleri "08:00,19:00";
+
+Not: Php'nin her türlü versiyonu ve Codeigniter, Laravel ilede çalışır..
