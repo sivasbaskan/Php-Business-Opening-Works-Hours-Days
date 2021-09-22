@@ -31,7 +31,7 @@ DayWork( Mysql'den Gelen Veri $veri->calismagunleri yada $veri['calismagunleri']
 ' html kodunu boşluk yada başka bir şey için kullanın ' );
 
 
-DayWork('1,2,3,4,5,6,7','<br>');
+DayWork('1,2,3,4,5,6,7','html kodu');
 
 
 Not: Php'nin her türlü versiyonu ve Codeigniter, Laravel ilede çalışır..
