@@ -17,15 +17,15 @@ calismasaatleri "08:00,19:00";
 calismagunleri "1,2,3,4,5,6,7";
 
 
-// Açılış ve Kapanış Saatleri //
+// Açılış ve Kapanış Saatleri // Çalışacak Fonksiyonun 
 
-// Çalışacak Fonksiyonun HoursWork( Mysql'den Gelen Veri $veri->acilissaatleri yada $veri['acilissaatleri'] );
+HoursWork( Mysql'den Gelen Veri $veri->acilissaatleri yada $veri['acilissaatleri'] );
 HoursWork('08:00,21:00');
 
 
-// Çalışma Günleri //
+// Çalışma Günleri // Çalışacak Fonksiyonun 
 
-// Çalışacak Fonksiyonun DayWork( Mysql'den Gelen Veri $veri->calismagunleri yada $veri['calismagunleri'], ' html kodunu boşluk yada başka bir şey için kullanın ');
+DayWork( Mysql'den Gelen Veri $veri->calismagunleri yada $veri['calismagunleri'], ' html kodunu boşluk yada başka bir şey için kullanın ' );
 DayWork('1,2,3,4,5,6,7','<br>');
 
 
