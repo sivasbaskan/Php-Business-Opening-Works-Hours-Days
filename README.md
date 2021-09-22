@@ -9,4 +9,4 @@ Mysql Verileri;
 Tablo = isyeribilgileri.
 Sütun = calismasaatleri.
 
-calismasaatler "08:00,19:00";
+calismasaatleri "08:00,19:00";
