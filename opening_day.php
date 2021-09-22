@@ -1,40 +1,40 @@
 <?php
 
-  // Çalışma Günleri //
-  function WorkDay($Wday){
+// Çalışma Günleri //
+function WorkDay($Wday){
 
-      $Days = array(
+    $Days = array(
 
-          1 => 'Pazartesi   <i class="text-success icon-checkmark float-right"></i>',
-          2 => 'Salı        <i class="text-success icon-checkmark float-right"></i>',
-          3 => 'Çarşamba    <i class="text-success icon-checkmark float-right"></i>',
-          4 => 'Perşembe    <i class="text-success icon-checkmark float-right"></i>',
-          5 => 'Cuma        <i class="text-success icon-checkmark float-right"></i>',
-          6 => 'Cumartesi   <i class="text-success icon-checkmark float-right"></i>',
-          7 => 'Pazar       <i class="text-success icon-checkmark float-right"></i>'
+        1 => 'Pazartesi   <i class="text-success icon-checkmark float-right"></i>',
+        2 => 'Salı        <i class="text-success icon-checkmark float-right"></i>',
+        3 => 'Çarşamba    <i class="text-success icon-checkmark float-right"></i>',
+        4 => 'Perşembe    <i class="text-success icon-checkmark float-right"></i>',
+        5 => 'Cuma        <i class="text-success icon-checkmark float-right"></i>',
+        6 => 'Cumartesi   <i class="text-success icon-checkmark float-right"></i>',
+        7 => 'Pazar       <i class="text-success icon-checkmark float-right"></i>'
 
-      );
+    );
 
-      $EndDays = $Days[$Wday];
+    $EndDays = $Days[$Wday];
 
-      /*if(!$EndDays == 'Cumartesi' || !$EndDays == 'Pazar'):
-          return '<i class="text-success icon-close"></i>';
-      Endif;*/
+    /*if(!$EndDays == 'Cumartesi' || !$EndDays == 'Pazar'):
+        return '<i class="text-success icon-close"></i>';
+    Endif;*/
 
-      return $EndDays;
-  }
+    return $EndDays;
+}
 
 
-  // Hangi Günlerde Çalışıyor //
-  function DayWork($Days, $html = null) {
+// Hangi Günlerde Çalışıyor //
+function DayWork($Days, $html = null) {
 
-      $Days       =   explode(',',$Days);
-      $WorksDays  =   "";
+    $Days       =   explode(',',$Days);
+    $WorksDays  =   "";
 
-      foreach ($Days as $arr => $day){ 
-          $WorksDays.= WorkDay($day). $html;
-      }
+    foreach ($Days as $arr => $day){ 
+        $WorksDays.= WorkDay($day). $html;
+    }
 
-      return $WorksDays;
-  }
+    return $WorksDays;
+}
 
